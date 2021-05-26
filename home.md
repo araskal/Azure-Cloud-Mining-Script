@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: minimal
 title: Mining Crypto on Azure
 subtitle: How to spend your Azure Free Credits
 ---
