@@ -49,7 +49,7 @@ And paste in this code:
 This will create an *Azure Batch* service with low priority VMs that will run our mining script.
 Because of this, the price /month of runnig our miners will be very low.
 
-After pressing save, you can chose the number of miners that you want to have running 
+After pressing save, you can add your configuration:
 
 
 ![ResourceGroups](assets/img/config.png){:class="img-responsive"}
@@ -57,19 +57,22 @@ After pressing save, you can chose the number of miners that you want to have ru
 - *Batch Accounts_batches_name*: chose a unique name
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
-- *User_wallet*: Enter your monero wallet here!
+- *User_wallet*: Enter your **monero wallet** here!
 - *User_pool_port*: The default pool we use is minexmr, but if you want you can change it here.
 - *Location*: Where the VMs are hosted.
 
 F4's are the most efficient. They cost around 0.03$/hour (or 25$/month), and they give a hashrate of 2-2.5 Kh/s.
 F2's are half the price (12$/month) but they give a lower hashrate of 0.8-1 Kh/s.
-| VM Size       | Hashrate     | Cost  |
-| -------- |:-------------:| -------:|
-| F2      | 2 - 2.5 Kh/s         | 12.5$/month |
-| F4     | 0.8 - 1 kH/s        |   25$/month |
 
-⋅⋅* I would advice to run as many F4s as possible, and only use an extra F2 VM if you free credits allow it.
-⋅⋅* The hashrate will fluctuate during the day, as the machines running the VMs are used by multiple users.
-⋅⋅* If you have an MSDN subscription it is best to keep make sure that you don't go over budget, as you than have to restart the VMs manually every month.
-..* If you have a large amount of credits, or your subscription limits the number of VM cores that you can use you can run this script again in a different location.
- 
+VM Size | Hashrate | Cost
+--- | --- | ---
+| F2      | 2 - 2.5 Kh/s         | 12.5$/month 
+| F4     | 0.8 - 1 kH/s        |   25$/month 
+
+
+
+   I would advice to run as many F4s as possible, and only use an extra F2 VM if you free credits allow it.
+   The hashrate will fluctuate during the day, as the machines running the VMs are used by multiple users.
+   If you have an MSDN subscription it is best to keep make sure that you don't go over budget, as you than have to restart the VMs manually every month.
+   If you have a large amount of credits, or your subscription limits the number of VM cores that you can use you can run this script again in a different location.
+
