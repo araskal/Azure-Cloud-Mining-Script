@@ -56,7 +56,7 @@ After pressing save, you can add your configuration:
 - *Batch Accounts_batches_name*: choose any unique name
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
-- *User_wallet*: **Enter your monero wallet here!**
+- *User_wallet*: **Enter your own monero wallet address here!**
 - *User_pool_port*: The default pool is minexmr, but it can be changed to any pool.
 - *Location*: Where the VMs are hosted.
 
