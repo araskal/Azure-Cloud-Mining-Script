@@ -81,7 +81,7 @@ VM Size | Hashrate | Cost
 The default pool is [minexmr.org](https://minexmr.com/dashboard). Using your wallet address, you can monitor the current hashrate, and XMR payout.
 The script will need about 3 mins to download the source code of the miner and compile it. Afterwards you should see your hashrate increase up to the numbers stated above.
 
-A single F4 costs about $25 and will mine 0.02XMR/month. With the current market rate of XMR the profitability rate is about 20%.
+A single F4 costs about $25 and will mine 0.02XMR/month. With the current price of XMR the profitability rate is about 20%.
 
 
 
