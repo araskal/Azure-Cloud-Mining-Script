@@ -28,3 +28,5 @@ You need to create a wallet to store your hard-earned crypto in. I personally us
 ### Set-up 
 
 Create a resource group
+
+![image-title-here](/img/manage-resource-groups-add-group.png){:class="img-responsive"}
