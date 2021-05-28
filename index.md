@@ -7,7 +7,7 @@ subtitle: How to spend your Azure Free Credits
 This guide will show you how to:
 - Create an Azure account with free credits
 - Create a Monero-Wallet to store your earnings
-- Start mining
+- How to start mining
 - What kind of revenue to expect
 
 
