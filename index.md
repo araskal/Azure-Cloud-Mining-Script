@@ -52,7 +52,7 @@ Because of this, the price /month of runnig our miners will be very low.
 After pressing save, you can add your configuration:
 
 
-![ResourceGroups](assets/img/config.png){:class="img-responsive"}
+![ResourceGroups](assets/img/config.PNG){:class="img-responsive"}
 
 - *Batch Accounts_batches_name*: chose a unique name
 - *V Ms_F2*: Number of F2 VMs 
@@ -66,8 +66,8 @@ F2's are half the price (12$/month) but they give a lower hashrate of 0.8-1 Kh/s
 
 VM Size | Hashrate | Cost
 --- | --- | ---
-| F2      | 2 - 2.5 Kh/s         | 12.5$/month 
-| F4     | 0.8 - 1 kH/s        |   25$/month 
+ F2  | 2 - 2.5 Kh/s | 12.5$/month 
+ F4  | 0.8 - 1 kH/s |   25$/month 
 
 
 
