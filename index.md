@@ -21,7 +21,7 @@ You WILL need to provide credit card information, which is used to verify your i
 
 - If you have an MSDN subscription (probably from work), you will be provided with 50$-150$ credits every month. This is a private subscription, and can not be monitored by others. So why not use it to mine some crypto?
 
-### Create a Monero Wallet (XRM) & Chose a pool
+### Create a Monero Wallet (XRM) & Choose a pool
 
 You need to create a wallet to store your hard-earned crypto in. I personally use Mymonero: [https://mymonero.com/](https://mymonero.com/), but you can use any XRM address for mining.
 
@@ -32,7 +32,7 @@ You need to create a wallet to store your hard-earned crypto in. I personally us
 
 ![ResourceGroups](assets/img/manage-resource-groups-add-group.png){:class="img-responsive"}
 
-You can chose any name and geographic location.
+You can choose any name and geographic location.
 
 - Create the resources needed to mine XRM:
 
@@ -54,7 +54,7 @@ After pressing save, you can add your configuration:
 
 ![ResourceGroups](assets/img/config.PNG){:class="img-responsive"}
 
-- *Batch Accounts_batches_name*: chose a unique name
+- *Batch Accounts_batches_name*: choose a unique name
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
 - *User_wallet*: Enter your **monero wallet** here!
