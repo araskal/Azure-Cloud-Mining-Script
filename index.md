@@ -27,6 +27,21 @@ You need to create a wallet to store your hard-earned crypto in. I personally us
 
 ### Set-up 
 
-Create a resource group
+- Create a resource group:
 
-![image-title-here](/img/manage-resource-groups-add-group.png){:class="img-responsive"}
+![ResourceGroups](assets/img/manage-resource-groups-add-group.png){:class="img-responsive"}
+
+Here, you can chose the name & geographic location in which the group is created.
+
+- Create the resources needed to mine XRM:
+
+We will use the *Azure Batch* service to create cheap VMs that will run our mining script.
+You can chose the number of VMs that you run:
+
+F4's are the most efficient. The cost around 0.03$/hour (or 25$/month), and give a hashrate of 2 Kh/s.
+F2's are half the price (12$/month) but give a lower hashrate of 0.8 Kh/s.
+I would advice to run as many F4s as possible, and only use an extra F2 VM if you free credits allow it.
+If you have an MSDN subscription it is best to keep make sure that you don't go over budget, as you than have to restart the VMs manually every month.
+
+
+
