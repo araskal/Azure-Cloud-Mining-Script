@@ -7,9 +7,7 @@ subtitle: How to spend your Azure Free Credits
 This guide will show you how to:
 - Create an Azure account with free credits
 - Create a Monero-Wallet to store your earnings
-- How to start mining
-- What kind of revenue to expect
-
+- Start mining & what kind of revenue to expect
 
 ### Create an Azure Account
 
@@ -20,11 +18,11 @@ You WILL need to provide credit card information, which is used to verify your i
 
 - If you are a **student**, you can register for free at [https://azure.microsoft.com/nl-nl/free/students/](https://azure.microsoft.com/en-us/free/students/) and receive $100 to spend on Azure. You will **NOT** need a credit card to create your account.
 
-- If you have an MSDN subscription (probably from work), you will be provided with $50-$150 credits every month. This is a private subscription, and can not be monitored by others. So why not use it to mine some crypto?
+- If you have an MSDN subscription (probably from work), you will be provided with $50-$150 credits every month. This is a private subscription, and can not be monitored by others.
 
-### Create a Monero Wallet (XRM) & Choose a pool
+### Create a Monero Wallet (XMR) & Choose a pool
 
-We will be mining monero, as it is the most profitable coin to mine on Azure. You need to create a personal wallet to safely store your crypto. I personally use Mymonero: [https://mymonero.com/](https://mymonero.com/), but you can use any XRM address for mining.
+We will be mining monero, as it is the most profitable coin to mine on Azure. You need to create a personal wallet to safely store your crypto. I personally use Mymonero: [https://mymonero.com/](https://mymonero.com/), but you can use any XMR address for mining.
 
 
 ### Set-up 
@@ -35,7 +33,7 @@ We will be mining monero, as it is the most profitable coin to mine on Azure. Yo
 
 You can choose any name and geographic location.
 
-- Create the resources needed to mine XRM:
+- Create the resources needed to mine XMR:
 
 ![ResourceGroups](assets/img/add-resource.png){:class="img-responsive"}
 
