@@ -76,11 +76,11 @@ VM Size | Hashrate | Cost
 
    The hashrate will fluctuate during the day, as the machines running the VMs are used by multiple users.
 
-   If you have an MSDN subscription it is best to keep make sure that you don't go over budget, as you than have to restart the VMs manually every month.
+   If you have a MSDN subscription it's best to keep within your monthly budget. Otherwise you need to restart the VMs manually every month.
 
    If you have a large amount of credits, you might run into issues as Azure only allows for 20 low-priority cores per region. You can use this script and change the *location* parameter to have VMs running in different regions.
 
-### Monitoring Mining & Expected Payouts 
+### Monitoring & Expected Payouts 
 
 The default pool is [minexmr.org](https://minexmr.com/dashboard). Using your wallet address, you can monitor the current hashrate, and XMR payout.
 The script will need about 3 mins to download the source code of the miner & compile. Afterwards you should see your hashrate increase up to the numbers stated above.
