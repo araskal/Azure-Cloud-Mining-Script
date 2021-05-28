@@ -57,12 +57,12 @@ After pressing save, you can add your configuration:
 - *Batch Accounts_batches_name*: choose a unique name
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
-- *User_wallet*: Enter your **monero wallet** here!
+- *User_wallet*: Enter **your monero wallet** here!
 - *User_pool_port*: The default pool we use is minexmr, but if you want you can change it here.
 - *Location*: Where the VMs are hosted.
 
 F4's are the most efficient. They cost around 0.03$/hour (or 25$/month), and they give a hashrate of 2-2.5 Kh/s.
-F2's are half the price (12$/month) but they give a lower hashrate of 0.8-1 Kh/s.
+F2's are half the price (12$/month) but they give a much lower hashrate of 0.8-1 Kh/s.
 
 VM Size | Hashrate | Cost
 --- | --- | ---
@@ -72,7 +72,19 @@ VM Size | Hashrate | Cost
 
 
    I would advice to run as many F4s as possible, and only use an extra F2 VM if you free credits allow it.
+
    The hashrate will fluctuate during the day, as the machines running the VMs are used by multiple users.
+
    If you have an MSDN subscription it is best to keep make sure that you don't go over budget, as you than have to restart the VMs manually every month.
-   If you have a large amount of credits, or your subscription limits the number of VM cores that you can use you can run this script again in a different location.
+
+   If you have a large amount of credits, you might run into issues as Azure only allows for 20 low-priority cores per region. You can use this script and change the *location* parameter to have VMs running in different regions.
+
+### Monitoring Mining & Expected Payouts 
+
+The default pool is [minexmr.org](https://minexmr.com/dashboard). Using your wallet address, you can monitor the current hashrate, and XMR payout.
+The script will need about 3 mins to download the source code of the miner & compile. Afterwards you should see your hashrate increase up to the numbers stated above.
+
+A single F4 costs about 25$ but will mine 0.02XMR/month. With the current market rate of XMR the payout rate is about 20%.
+
+
 
