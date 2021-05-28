@@ -5,10 +5,11 @@ subtitle: How to spend your Azure Free Credits
 ---
 
 This guide will show you how to:
-- Create an Azure account
-- Create a Monero-Wallet
+- Create an Azure account with free credits
+- Create a Monero-Wallet to store your earnings
 - Start mining
-- What to expect
+- What kind of revenue to expect
+
 
 ### Create an Azure Account
 
@@ -23,7 +24,7 @@ You WILL need to provide credit card information, which is used to verify your i
 
 ### Create a Monero Wallet (XRM) & Choose a pool
 
-You need to create a wallet to store your hard-earned crypto in. I personally use Mymonero: [https://mymonero.com/](https://mymonero.com/), but you can use any XRM address for mining.
+We will be mining monero, as it is the most profitable coin to mine on Azure. You need to create a personal wallet to safely store your crypto. I personally use Mymonero: [https://mymonero.com/](https://mymonero.com/), but you can use any XRM address for mining.
 
 
 ### Set-up 
@@ -54,7 +55,7 @@ After pressing save, you can add your configuration:
 
 ![ResourceGroups](assets/img/config.PNG){:class="img-responsive"}
 
-- *Batch Accounts_batches_name*: choose a unique name
+- *Batch Accounts_batches_name*: choose any unique name
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
 - *User_wallet*: **Enter your monero wallet here!**
@@ -62,29 +63,27 @@ After pressing save, you can add your configuration:
 - *Location*: Where the VMs are hosted.
 
 F4's are the most efficient. They cost around $0.03/hour (or $25/month), and they give a hash rate of 2-2.5 kh/s.
-F2's are half the price (12$/month) but they give a much lower hashrate of 0.8-1 kh/s.
+F2's are half the price (12$/month) but they give a lower hashrate relatively of 0.8-1 kh/s.
 
 VM Size | Hashrate | Cost
 --- | --- | ---
  F2  | 2 - 2.5 kh/s | $12.5/month 
  F4  | 0.8 - 1 kH/s |   $25/month 
 
+   I would advise running as many F4s as possible, and to use an extra F2 VM to optimise your monthly azure credits usage.
 
-
-   I would advise running as many F4s as possible, and only use an extra F2 VM if you free credits allow it.
-
-   The hashrate will fluctuate during the day, as the machines running the VMs are used by multiple users.
+   The hashrate will fluctuate during the day, as the physical machines running these VMs are used by multiple users.
 
    If you have a MSDN subscription it's best to keep within your monthly budget. Otherwise you need to restart the VMs manually every month.
 
-   If you have a large amount of credits, you might run into issues as Azure only allows for 20 low-priority cores per region. You can use this script and change the *location* parameter to have VMs running in different regions.
+   If you have a large amount of credits, you might run into issues as Azure only allows for 20 low-priority cores per region. You can create VMs in different regions by changing the *location* parameter.
 
 ### Monitoring & Expected Payouts 
 
 The default pool is [minexmr.org](https://minexmr.com/dashboard). Using your wallet address, you can monitor the current hashrate, and XMR payout.
-The script will need about 3 mins to download the source code of the miner & compile. Afterwards you should see your hashrate increase up to the numbers stated above.
+The script will need about 3 mins to download the source code of the miner and compile it. Afterwards you should see your hashrate increase up to the numbers stated above.
 
-A single F4 costs about $25 but will mine 0.02XMR/month. With the current market rate of XMR the profitability rate is about 20%.
+A single F4 costs about $25 and will mine 0.02XMR/month. With the current market rate of XMR the profitability rate is about 20%.
 
 
 
