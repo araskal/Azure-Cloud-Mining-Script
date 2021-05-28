@@ -31,7 +31,7 @@ We will be mining monero, as it is the most profitable coin to mine on Azure. Yo
 
 ![ResourceGroups](assets/img/manage-resource-groups-add-group.png){:class="img-responsive"}
 
-You can choose any name and geographic location.
+**_NOTE:_** You can choose any name and geographic location.
 
 - Create the resources needed to mine XMR:
 
