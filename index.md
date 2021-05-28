@@ -14,8 +14,8 @@ This guide will show you how to:
 
 There are different options for getting an Azure account with free credits:
 
-- If you don't already have one, you can sign up at https://azure.microsoft.com/en-us/free/ to get 150$ of free credits.
-You WILL need to provide credit card information, which is used to verify your identity (see [Azure FAQ](https://azure.microsoft.com/en-us/free/free-account-faq/).
+- If you don't already have one, you can sign up at [https://azure.microsoft.com/en-us/free/] to get 150$ of free credits.
+You WILL need to provide credit card information, which is used to verify your identity (see [Azure FAQ](https://azure.microsoft.com/en-us/free/free-account-faq/)).
 
 - If you are a **student**, you can register for free at https://azure.microsoft.com/nl-nl/free/students/ and receive $100 to spend on Azure. You will **NOT** need a credit card to create your account.
 
