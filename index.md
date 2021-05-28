@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Mining Crypto on Azure
