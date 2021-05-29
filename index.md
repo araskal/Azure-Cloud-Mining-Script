@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mining Crypto on Azure
+title: Mining Crypto on Azure Cloud
 subtitle: How to spend your Azure Free Credits
 ---
 
