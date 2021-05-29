@@ -65,8 +65,8 @@ F2's are half the price (12$/month) but they give a lower hashrate relatively of
 
 VM Size | Hashrate | Cost
 --- | --- | ---
- F2  | 2 - 2.5 kh/s | $12.5/month 
- F4  | 0.8 - 1 kH/s |   $25/month 
+ F2  | 0.8 - 1 kH/s | $12.5/month 
+ F4  | 2 - 2.5 kh/s |   $25/month 
 
    I would advise running as many F4s as possible, and to use an extra F2 VM to optimise your monthly azure credits usage.
 
