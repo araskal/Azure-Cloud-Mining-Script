@@ -39,7 +39,10 @@ We will be mining monero, as it is the most profitable coin to mine on Azure. Yo
 
 Click *Add --> Custom Deployment* 
 
+If the *Add* button it not visible. Type: Template Deployment in the search bar, and click on *Template Deployment (Deploy using custom templates)* under the marketplace section.
+
 ![ResourceGroups](assets/img/Template_editor.png){:class="img-responsive"}
+
 
 And paste in this code:
 
