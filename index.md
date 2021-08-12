@@ -56,7 +56,7 @@ After pressing save, you can add your configuration:
 
 ![ResourceGroups](assets/img/config.PNG){:class="img-responsive"}
 
-- *Batch Accounts_batches_name*: choose any unique name
+- *Batch Accounts_batches_name*: choose any unique name (change the default value!)
 - *V Ms_F2*: Number of F2 VMs 
 - *V Ms_F4*: Number of F4 VMs 
 - *User_wallet*: **Enter your own monero wallet address here!**
